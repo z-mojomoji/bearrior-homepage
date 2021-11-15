@@ -19,10 +19,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
-  IoLogoDiscord
+  IoLogoLinkedin,
+  IoLogoGithub
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -37,15 +35,15 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Japan!
+        Hello, I&apos;m a frontend developer based in Thailand!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Suphicha Anusirikul
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Frontend Developer / UX Designer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -71,16 +69,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
-          </NextLink>
-          .
+          Suphicha is a freelance and a frontend developer based in Bangkok with a
+          passion for building a website that people wants to use. She has a knack
+          from planning and designing, all the way to solving real-life problems with code. 
+          When not online, she loves hanging out with her puppy. Currently, she is giving
+          her best in her study.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -96,22 +89,28 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1991</BioYear>
+          Born in Bangkok (กรุงเทพมหานคร), Thailand.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2013</BioYear>
+          Completed the Bachelor&apos;s Program in Multimedia Design from The University of Queensland, Brisbane, Australia
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2014</BioYear>
+          Worked as a Web/CSS Designer at Dek-D Interactive co., ltd.
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>2016</BioYear>
+          Worked as a Freelance Frontend/UI Developer/Designer for The BigDot and Manulife (Singapore)
+        </BioSection>
+        <BioSection>
+          <BioYear>2016</BioYear>
+          Worked as a UI Developer / ITIC Software Engineer for Agoda
+        </BioSection>
+        <BioSection>
+          <BioYear>2021 to present</BioYear>
+          Studying Master of Business Administration at Sasin Graduate Institute of Business Administration of Chulalongkorn University and works as a freelance
         </BioSection>
       </Section>
 
@@ -120,15 +119,10 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
+          PUPPIES!, Art, Music, Drawing, Traveling,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
             Photography
           </Link>
-          , Leica, Machine Learning
         </Paragraph>
       </Section>
 
@@ -138,57 +132,24 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/z-mojomoji" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
+                @z-mojomoji
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://www.linkedin.com/in/suphicha" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
+                leftIcon={<Icon as={IoLogoLinkedin} />}
               >
-                @inkdrop_app
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
-              >
-                @craftzdog
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoInstagram} />}
-              >
-                @craftzdog
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://discord.gg/QfsG5Kj" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoDiscord} />}
-              >
-                Discord
+                Suphicha Anusirikul
               </Button>
             </Link>
           </ListItem>
