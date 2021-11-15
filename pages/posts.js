@@ -1,66 +1,115 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+import { PostGridItem } from '../components/grid-item'
 
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
-import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
-import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
-import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
-import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
+import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
+import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+import thumbStyly from '../public/images/works/styly_eyecatch.png'
+import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Posts = () => (
-  <Layout title="Posts">
+  <Layout title="Post">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Post
       </Heading>
 
-      <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
-          />
-          <GridItem
-            title="My desk setup (Late 2020)"
-            thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
-          />
-        </SimpleGrid>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <PostGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
+            A Markdown note-taking app with 100+ plugins, cross-platform and
+            encrypted data sync support
+          </PostGridItem>
+        </Section>
+        <Section>
+          <PostGridItem
+            id="walknote"
+            title="walknote"
+            thumbnail={thumbWalknote}
+          >
+            Music recommendation app for iOS
+          </PostGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <PostGridItem
+            id="fourpainters"
+            title="The four painters"
+            thumbnail={thumbFourPainters}
+          >
+            A video work generated with deep learning, imitating famous four
+            painters like Van Gogh
+          </PostGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <PostGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
+            An app that suggests ramen(noodle) shops based on a given photo of
+            the ramen you want to eat
+          </PostGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Collaborations
+        </Heading>
       </Section>
 
-      <Section delay={0.3}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
-            thumbnail={thumb500PaidUsers}
-            href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
-          />
-          <GridItem
-            title="I stopped setting a financial goal for my SaaS"
-            thumbnail={thumbFinancialGoal}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
-          />
-        </SimpleGrid>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <PostGridItem
+            id="modetokyo"
+            thumbnail={thumbModeTokyo}
+            title="mode.tokyo"
+          >
+            The mode magazine for understanding to personally enjoy Japan
+          </PostGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <PostGridItem id="styly" thumbnail={thumbStyly} title="Styly">
+            A VR Creative tools for fashion brands
+          </PostGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.4}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Old works
+        </Heading>
       </Section>
 
-      <Section delay={0.5}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="How to Price Yourself as a Freelance Developer"
-            thumbnail={thumbHowToPriceYourself}
-            href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
-          />
-          <GridItem
-            title="I made my React Native app 50x faster"
-            thumbnail={thumb50xFaster}
-            href="https://www.youtube.com/watch?v=vj723NlrIQc"
-          />
-        </SimpleGrid>
-      </Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.5}>
+          <PostGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
+            Twitter client app for iPhone Safari
+          </PostGridItem>
+        </Section>
+        <Section delay={0.5}>
+          <PostGridItem
+            id="freedbtagger"
+            thumbnail={thumbFreeDBTagger}
+            title="freeDBTagger"
+          >
+            Automatic audio file tagging tool using FreeDB for Windows
+          </PostGridItem>
+        </Section>
+        <Section delay={0.6}>
+          <PostGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
+            P2P private file sharing tool with MSN Messenger integration for
+            Windows
+          </PostGridItem>
+        </Section>
+      </SimpleGrid>
     </Container>
   </Layout>
 )
