@@ -1,6 +1,7 @@
-# Takuya's Homepage
+# Moji's Homepage
 
-[https://www.craftz.dog/](https://www.craftz.dog/)
+[https://www.bearrior.com/](https://www.bearrior.com/)
+Using Node Version 16.13.2
 
 ## Tutorial
 
@@ -30,7 +31,3 @@ $PROJECT_ROOT
 ```
 
 ---
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
