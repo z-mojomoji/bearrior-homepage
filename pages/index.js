@@ -35,7 +35,7 @@ const Home = () => (
       </Box>
 
       <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
+        <Box flexGrow={1} textAlign={{base: 'center', md: 'left'}}>
           <Heading as="h2" variant="page-title">
             Suphicha Anusirikul
           </Heading>

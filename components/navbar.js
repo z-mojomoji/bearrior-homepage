@@ -79,7 +79,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/z-mojomoji"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -87,7 +87,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Github
           </LinkItem>
         </Stack>
 
@@ -114,9 +114,9 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/z-mojomoji/bearrior-homepage"
+                  href="https://github.com/z-mojomoji"
                 >
-                  View Source
+                  Github
                 </MenuItem>
               </MenuList>
             </Menu>
