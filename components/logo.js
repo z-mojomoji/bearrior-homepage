@@ -21,6 +21,10 @@ const LogoBox = styled.span`
   }
 `
 
+const LogoName = styled.span `
+  margin-left: 5px;
+`
+
 const Logo = () => {
   const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
 
@@ -33,9 +37,8 @@ const Logo = () => {
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
-            ml={3}
           >
-            Suphicha Anusirikul
+            <LogoName>Suphicha Anusirkul</LogoName>
           </Text>
         </LogoBox>
       </a>
