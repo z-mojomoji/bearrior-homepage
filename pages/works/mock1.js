@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, ArticleImage, Meta } from '../../components/article'
+import { Title, ContentImage, Meta } from '../../components/content'
 import P from '../../components/paragraph'
 
 const Work = () => (
@@ -53,11 +53,11 @@ const Work = () => (
       </UnorderedList>
 
       <SimpleGrid columns={2} gap={2}>
-        <ArticleImage src="/images/posts/mockup1.jpg" alt="mock1" />
-        <ArticleImage src="/images/posts/mockup2.jpg" alt="mock1" />
+        <ContentImage src="/images/posts/mockup1.jpg" alt="mock1" />
+        <ContentImage src="/images/posts/mockup2.jpg" alt="mock1" />
       </SimpleGrid>
-      <ArticleImage src="/images/posts/mockup3.jpg" alt="mock1" />
-      <ArticleImage src="/images/posts/mockup4.jpg" alt="mock1" />
+      <ContentImage src="/images/posts/mockup3.jpg" alt="mock1" />
+      <ContentImage src="/images/posts/mockup4.jpg" alt="mock1" />
     </Container>
   </Layout>
 )

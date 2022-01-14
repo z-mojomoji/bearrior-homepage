@@ -2,7 +2,7 @@ import NextLink from 'next/link'
 import { Heading, Box, Link, Image, Badge } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
-export const ArticleImage = ({ src, alt }) => (
+export const ContentImage = ({ src, alt }) => (
     <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
   )
   
