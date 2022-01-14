@@ -86,31 +86,37 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Work Experience
         </Heading>
         <BioSection>
-          <BioYear>1991</BioYear>
-          Born in Bangkok (กรุงเทพมหานคร), Thailand.
-        </BioSection>
-        <BioSection>
-          <BioYear>2013</BioYear>
-          Completed the Bachelor&apos;s Program in Multimedia Design from The University of Queensland, Brisbane, Australia
-        </BioSection>
-        <BioSection>
-          <BioYear>2014</BioYear>
-          Worked as a Web/CSS Designer at Dek-D Interactive co., ltd.
+          <BioYear>2014-2016</BioYear>
+          Worked as a <em>Web/CSS Designer</em> at Dek-D Interactive co., ltd.
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Worked as a Freelance Frontend/UI Developer/Designer for The BigDot and Manulife (Singapore)
+          Worked as a <em>Freelance Frontend/UI Developer/Designer</em> for The BigDot and Manulife (Singapore)
         </BioSection>
         <BioSection>
-          <BioYear>2017</BioYear>
-          Worked as a UI Developer / ITIC Software Engineer for Agoda
+          <BioYear>2016-2020</BioYear>
+          Worked as a <em>UI Developer / ITIC Software Engineer</em> for Agoda
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          Studying Master of Business Administration at Sasin Graduate Institute of Business Administration of Chulalongkorn University and works as a freelance
+          Working as an <em>UX Developer</em> at Minor Hotels
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Education
+        </Heading>
+        <BioSection>
+          <BioYear>2011-2013</BioYear>
+          Completed the <em>Bachelor of Multimedia Design</em> from The University of Queensland, Brisbane, Australia
+        </BioSection>
+        <BioSection>
+          <BioYear>2021 to present</BioYear>
+          Studying the <em>Master of Business Administration</em> at Sasin Graduate Institute of Business Administration of Chulalongkorn University
         </BioSection>
       </Section>
 
