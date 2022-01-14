@@ -16,13 +16,13 @@ import { Title, PostImage, Meta } from '../../components/post'
 import P from '../../components/paragraph'
 
 const Post = () => (
-  <Layout title="Mock 1">
+  <Layout title="Work Mock 1">
     <Container>
       <Title>
-        Mock 1 <Badge>Years</Badge>
+        Work Mock 1 <Badge>Years</Badge>
       </Title>
       <Center my={6}>
-        <Image src="/images/posts/mockup1.jpg" alt="icon" />
+        <Image src="/images/posts/mockup2.jpg" alt="icon" />
       </Center>
       <P>
         Mock Text
