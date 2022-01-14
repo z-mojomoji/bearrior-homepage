@@ -12,13 +12,13 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, ArticleImage, Meta } from '../../components/article'
 import P from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="Work Mock 1">
     <Container>
-      <Title>
+      <Title type="work">
         Work Mock 1 <Badge>Years</Badge>
       </Title>
       <Center my={6}>
@@ -53,11 +53,11 @@ const Work = () => (
       </UnorderedList>
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/posts/mockup1.jpg" alt="mock1" />
-        <WorkImage src="/images/posts/mockup2.jpg" alt="mock1" />
+        <ArticleImage src="/images/posts/mockup1.jpg" alt="mock1" />
+        <ArticleImage src="/images/posts/mockup2.jpg" alt="mock1" />
       </SimpleGrid>
-      <WorkImage src="/images/posts/mockup3.jpg" alt="mock1" />
-      <WorkImage src="/images/posts/mockup4.jpg" alt="mock1" />
+      <ArticleImage src="/images/posts/mockup3.jpg" alt="mock1" />
+      <ArticleImage src="/images/posts/mockup4.jpg" alt="mock1" />
     </Container>
   </Layout>
 )
