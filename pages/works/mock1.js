@@ -54,10 +54,10 @@ const Post = () => (
 
       <SimpleGrid columns={2} gap={2}>
         <PostImage src="/images/posts/mockup1.jpg" alt="mock1" />
-        <PostImage src="/images/posts/mockup1.jpg" alt="mock1" />
+        <PostImage src="/images/posts/mockup2.jpg" alt="mock1" />
       </SimpleGrid>
-      <PostImage src="/images/posts/mockup1.jpg" alt="mock1" />
-      <PostImage src="/images/posts/mockup1.jpg" alt="mock1" />
+      <PostImage src="/images/posts/mockup3.jpg" alt="mock1" />
+      <PostImage src="/images/posts/mockup4.jpg" alt="mock1" />
     </Container>
   </Layout>
 )
