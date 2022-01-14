@@ -68,7 +68,12 @@ const VoxelBear = () => {
 
       const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
       scene.add(ambientLight)
-
+      
+      const directionalLight = new THREE.DirectionalLight( 0xffffff, 0.5, 18 );
+      directionalLight.position.set(1, 1, 0);
+      directionalLight.castShadow = true;
+      scene.add( directionalLight );
+      
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
       controls.target = target
