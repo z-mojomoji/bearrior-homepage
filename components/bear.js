@@ -2,13 +2,13 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
-import { BearSpinner, BearContainer } from './voxel-bear-loader'
+import { BearSpinner, BearContainer } from './bear-loader'
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const VoxelBear = () => {
+const Bear = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
@@ -18,7 +18,7 @@ const VoxelBear = () => {
     new THREE.Vector3(
       20 * Math.sin(0.2 * Math.PI),
       10,
-      20 * Math.cos(0.2 * Math.PI)
+      40 * Math.cos(0.2 * Math.PI)
     )
   )
   const [scene] = useState(new THREE.Scene())
@@ -53,7 +53,7 @@ const VoxelBear = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.005 + 5.8
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -131,4 +131,4 @@ const VoxelBear = () => {
   )
 }
 
-export default VoxelBear
+export default Bear

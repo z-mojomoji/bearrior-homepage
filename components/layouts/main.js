@@ -3,11 +3,11 @@ import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import VoxelBearLoader from '../voxel-bear-loader'
+import BearLoader from '../bear-loader'
 
-const LazyVoxelBear = dynamic(() => import('../voxel-bear'), {
+const LazyBear = dynamic(() => import('../bear'), {
   ssr: false,
-  loading: () => <VoxelBearLoader />
+  loading: () => <BearLoader />
 })
 
 const Main = ({ children, router }) => {
@@ -29,7 +29,7 @@ const Main = ({ children, router }) => {
       <NavBar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
-        <LazyVoxelBear />
+        <LazyBear />
 
         {children}
 
