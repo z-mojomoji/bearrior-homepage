@@ -105,7 +105,7 @@ const Home = () => (
           Worked as a Freelance Frontend/UI Developer/Designer for The BigDot and Manulife (Singapore)
         </BioSection>
         <BioSection>
-          <BioYear>2016</BioYear>
+          <BioYear>2017</BioYear>
           Worked as a UI Developer / ITIC Software Engineer for Agoda
         </BioSection>
         <BioSection>
@@ -155,7 +155,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
@@ -170,7 +170,7 @@ const Home = () => (
           >
             A Markdown note-taking app
           </GridItem>
-        </SimpleGrid>
+        </SimpleGrid> */}
 
         <Box align="center" my={4}>
           <NextLink href="/posts">
