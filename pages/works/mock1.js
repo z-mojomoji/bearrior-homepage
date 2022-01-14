@@ -15,7 +15,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, PostImage, Meta } from '../../components/post'
 import P from '../../components/paragraph'
 
-const Post = () => (
+const Work = () => (
   <Layout title="Work Mock 1">
     <Container>
       <Title>
@@ -62,4 +62,4 @@ const Post = () => (
   </Layout>
 )
 
-export default Post
+export default Work
