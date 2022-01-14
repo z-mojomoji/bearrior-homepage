@@ -74,7 +74,7 @@ const VoxelBear = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/dog.glb', {
+      loadGLTFModel(scene, '/bear.gltf', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
