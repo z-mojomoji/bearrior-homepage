@@ -16,11 +16,13 @@ const Posts = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        {/* Start One Post */}
         <Section>
           <PostGridItem id="mock1" title="Mock 1" thumbnail={thumbMockUp1}>
             Description 1
           </PostGridItem>
         </Section>
+        {/* End One Post */}
         <Section>
           <PostGridItem
             id="mock1"
@@ -47,9 +49,9 @@ const Posts = () => (
         </Section>
       </SimpleGrid>
 
+      {/* New Section */}
       <Section delay={0.2}>
         <Divider my={6} />
-
         <Heading as="h3" fontSize={20} mb={4}>
           Another Mock heading
         </Heading>

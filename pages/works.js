@@ -16,11 +16,13 @@ const Works = () => (
     </Heading>
 
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* Start One Work section */}
       <Section>
         <WorkGridItem id="mock1" title="Mock 1" thumbnail={thumbMockUp1}>
           Description 1
         </WorkGridItem>
       </Section>
+      {/* End One Work section */}
       <Section>
         <WorkGridItem
           id="mock1"
@@ -47,9 +49,9 @@ const Works = () => (
       </Section>
     </SimpleGrid>
 
+    {/* New Section */}
     <Section delay={0.2}>
       <Divider my={6} />
-
       <Heading as="h3" fontSize={20} mb={4}>
         Another Mock heading
       </Heading>
