@@ -4,22 +4,26 @@ import {
   Container,
   Heading,
   Box,
-  Image,
   Button,
   List,
   ListItem,
-  Icon,
-  useColorModeValue
+  useColorModeValue,
+  chakra
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
+import Image from 'next/image'
 import {
   IoLogoLinkedin,
   IoLogoGithub
 } from 'react-icons/io5'
+
+const ProfileImage = chakra(Image, {
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+})
 
 const Home = () => (
   <Layout>
@@ -30,6 +34,7 @@ const Home = () => (
         p={3}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        css={{ backdropFilter: 'blur(10px)' }}
       >
         Hello, I&apos;m a frontend developer based in Thailand!
       </Box>
@@ -47,16 +52,24 @@ const Home = () => (
           ml={{ md: 6 }}
           textAlign="center"
         >
-          <Image
+          <Box
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            maxWidth="100px"
+            w="100px"
+            h="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/moji.jpg"
-            alt="Profile image"
-          />
+            overflow="hidden"
+          >
+            <ProfileImage
+              src="/images/moji.jpg"
+              alt="Profile image"
+              borderRadius="full"
+              width="100%"
+              height="100%"
+            />
+          </Box>
         </Box>
       </Box>
 
@@ -72,7 +85,7 @@ const Home = () => (
           her best in her study.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
@@ -138,7 +151,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoGithub} />}
+                leftIcon={<IoLogoGithub />}
               >
                 @z-mojomoji
               </Button>
@@ -149,7 +162,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoLinkedin} />}
+                leftIcon={<IoLogoLinkedin />}
               >
                 Suphicha Anusirikul
               </Button>
@@ -157,7 +170,7 @@ const Home = () => (
           </ListItem>
         </List>
         <Box align="center" my={4}>
-          <NextLink href="/posts">
+          <NextLink href="/posts" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts
             </Button>
@@ -169,3 +182,4 @@ const Home = () => (
 )
 
 export default Home
+export { getServerSideProps } from '../components/chakra'
