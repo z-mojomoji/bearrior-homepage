@@ -20,9 +20,15 @@ const Main = ({ children, router }) => {
         <meta name="author" content="z-mojomoji" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta property="og:site_name" content="Suphicha Anusirikul's Homepage" />
+        <meta name="twitter:title" content="Suphicha Anusirikul" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@z_mojimoji" />
+        <meta name="twitter:creator" content="@z_mojimoji" />
+        <meta name="twitter:image" content="https://www.bearrior.com/card.png" />
+        <meta property="og:site_name" content="Suphicha Anusirikul" />
+        <meta name="og:title" content="Suphicha Anusirikul" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />
+        <meta property="og:image" content="https://www.bearrior.com/card.png" />
         <title>Suphicha Anusirikul - Homepage</title>
       </Head>
 
