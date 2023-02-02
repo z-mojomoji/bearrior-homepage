@@ -63,4 +63,4 @@ const Post = () => (
 )
 
 export default Post
-export { getServerSideProps } from '../components/chakra'
+export { getServerSideProps } from '../../components/chakra'
