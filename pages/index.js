@@ -66,8 +66,8 @@ const Home = () => (
               src="/images/moji.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="100%"
-              height="100%"
+              width="100"
+              height="100"
             />
           </Box>
         </Box>
@@ -85,11 +85,15 @@ const Home = () => (
           her best in her study.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+          <Button
+            as={NextLink}
+            href="/works"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+          >
               My portfolio
             </Button>
-          </NextLink>
         </Box>
       </Section>
 
@@ -170,11 +174,15 @@ const Home = () => (
           </ListItem>
         </List>
         <Box align="center" my={4}>
-          <NextLink href="/posts" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
+          <Button
+            as={NextLink}
+            href="/posts"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+          >
+            Popular posts
+          </Button>
         </Box>
       </Section>
     </Container>
