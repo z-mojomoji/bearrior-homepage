@@ -24,9 +24,7 @@ const Post = () => (
       <Center my={6}>
         <Image src="/images/posts/mockup1.jpg" alt="icon" />
       </Center>
-      <P>
-        Mock Text
-      </P>
+      <P>Mock Text</P>
       <UnorderedList ml={4} my={4}>
         <ListItem>Mock Unordered List</ListItem>
       </UnorderedList>
@@ -46,8 +44,7 @@ const Post = () => (
         <ListItem>
           <Link href="#">
             <Badge mr={2}>Mock</Badge>
-            References{' '}
-            <ExternalLinkIcon mx="2px" />
+            References <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </UnorderedList>

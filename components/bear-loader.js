@@ -1,5 +1,6 @@
 import { forwardRef } from 'react'
 import { Box, Spinner } from '@chakra-ui/react'
+import { Global } from '@emotion/react'
 
 export const BearSpinner = () => (
   <Spinner
@@ -26,6 +27,20 @@ export const BearContainer = forwardRef(({ children }, ref) => (
     {children}
   </Box>
 ))
+
+export const BearLoaderStyle = () => (
+  <Global
+    styles={`
+      .voxel-bear canvas {
+        display: none !important;
+      }
+
+      .voxel-bear canvas:first-of-type {
+        display: block !important;
+      }
+    `}
+  />
+)
 
 const Loader = () => {
   return (
