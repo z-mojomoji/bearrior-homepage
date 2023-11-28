@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import BearLoader, { BearLoaderStyle } from '../bear-loader'
+import BearLoader from '../bear-loader'
 
 const LazyBear = dynamic(() => import('../bear'), {
   ssr: false,
@@ -42,7 +42,6 @@ const Main = ({ children, router }) => {
 
         {children}
 
-        <BearLoaderStyle />
         <Footer />
       </Container>
     </Box>
