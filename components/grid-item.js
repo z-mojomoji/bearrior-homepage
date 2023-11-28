@@ -25,7 +25,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
   <Box w="100%" textAlign="center">
     <LinkBox
       as={NextLink}
-      href={`/${category}/${id}`}
+      href={`/works/${id}`}
       scroll={false}
       cursor="pointer"
     >
