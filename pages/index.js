@@ -16,10 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Image from 'next/image'
-import {
-  IoLogoLinkedin,
-  IoLogoGithub
-} from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -40,7 +37,7 @@ const Home = () => (
       </Box>
 
       <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1} textAlign={{base: 'center', md: 'left'}}>
+        <Box flexGrow={1} textAlign={{ base: 'center', md: 'left' }}>
           <Heading as="h2" variant="page-title">
             Suphicha Anusirikul
           </Heading>
@@ -78,11 +75,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Suphicha is a freelance and a frontend developer based in Bangkok with a
-          passion for building a website that people wants to use. She has a knack
-          from planning and designing, all the way to solving real-life problems with code. 
-          When not online, she loves hanging out with her puppy. Currently, she is giving
-          her best in her study.
+          Suphicha is a freelance and a frontend developer based in Bangkok with
+          a passion for building a website that people wants to use. She has a
+          knack from planning and designing, all the way to solving real-life
+          problems with code. When not online, she loves hanging out with her
+          puppy. Currently, she is giving her best in her study.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -92,8 +89,8 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-              My portfolio
-            </Button>
+            My portfolio
+          </Button>
         </Box>
       </Section>
 
@@ -107,7 +104,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Worked as a <em>Freelance Frontend/UI Developer/Designer</em> for The BigDot and Manulife (Singapore)
+          Worked as a <em>Freelance Frontend/UI Developer/Designer</em> for The
+          BigDot and Manulife (Singapore)
         </BioSection>
         <BioSection>
           <BioYear>2016-2020</BioYear>
@@ -125,11 +123,14 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2011-2013</BioYear>
-          Completed the <em>Bachelor of Multimedia Design</em> from The University of Queensland, Brisbane, Australia
+          Completed the <em>Bachelor of Multimedia Design</em> from The
+          University of Queensland, Brisbane, Australia
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          Studying the <em>Master of Business Administration</em> at Sasin Graduate Institute of Business Administration of Chulalongkorn University
+          Studying the <em>Master of Business Administration</em> at Sasin
+          Graduate Institute of Business Administration of Chulalongkorn
+          University
         </BioSection>
       </Section>
 
