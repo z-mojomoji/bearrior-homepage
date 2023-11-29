@@ -11,7 +11,7 @@ import thumbMockUp4 from '../public/images/works/mockup4.jpg'
 const Posts = () => (
   <Layout title="Post">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h2" fontSize={24} mb={4}>
         Post
       </Heading>
 
@@ -24,21 +24,13 @@ const Posts = () => (
         </Section>
         {/* End One Post */}
         <Section>
-          <PostGridItem
-            id="mock1"
-            title="Mock 2"
-            thumbnail={thumbMockUp2}
-          >
+          <PostGridItem id="mock1" title="Mock 2" thumbnail={thumbMockUp2}>
             Description 2
           </PostGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <PostGridItem
-            id="mock1"
-            title="Mock 3"
-            thumbnail={thumbMockUp3}
-          >
+          <PostGridItem id="mock1" title="Mock 3" thumbnail={thumbMockUp3}>
             Description 3
           </PostGridItem>
         </Section>
@@ -52,7 +44,7 @@ const Posts = () => (
       {/* New Section */}
       <Section delay={0.2}>
         <Divider my={6} />
-        <Heading as="h3" fontSize={20} mb={4}>
+        <Heading as="h3" fontSize={18} mb={4}>
           Another Mock heading
         </Heading>
       </Section>

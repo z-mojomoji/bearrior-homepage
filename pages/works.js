@@ -11,10 +11,12 @@ import thumbMockUp4 from '../public/images/works/mockup4.jpg'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h2" fontSize={24} mb={4}>
         Works
       </Heading>
-
+      <Heading as="h3" fontSize={18} mb={4}>
+        User Experiences
+      </Heading>
       <SimpleGrid columns={[1, 1, 1]} gap={6}>
         {/* Start One Work section */}
         <Section>
@@ -53,9 +55,34 @@ const Works = () => (
       {/* New Section */}
       <Section delay={0.2}>
         <Divider my={6} />
-        <Heading as="h3" fontSize={20} mb={4}>
-          Another Mock heading
+        <Heading as="h3" fontSize={18} mb={4}>
+          Codes
         </Heading>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          {/* Start One Work section */}
+          <Section>
+            <WorkGridItem id="mock1" title="Mock 1" thumbnail={thumbMockUp1}>
+              Description 1
+            </WorkGridItem>
+          </Section>
+          {/* End One Work section */}
+          <Section>
+            <WorkGridItem id="mock1" title="Mock 2" thumbnail={thumbMockUp2}>
+              Description 2
+            </WorkGridItem>
+          </Section>
+
+          <Section delay={0.1}>
+            <WorkGridItem id="mock1" title="Mock 3" thumbnail={thumbMockUp3}>
+              Description 3
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.1}>
+            <WorkGridItem id="mock1" thumbnail={thumbMockUp4} title="Mock 4">
+              Description 4
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
       </Section>
     </Container>
   </Layout>

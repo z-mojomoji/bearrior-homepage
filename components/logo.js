@@ -21,7 +21,7 @@ const LogoBox = styled.span`
   }
 `
 
-const LogoName = styled.span `
+const LogoName = styled.span`
   margin-left: 5px;
 `
 
