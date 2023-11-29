@@ -12,7 +12,7 @@ const Bear = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = '/bear.gltf'
+  const urlBearGLBF = '/bear.gltf'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -71,7 +71,7 @@ const Bear = () => {
       controls.autoRotate = true
       controls.target = target
 
-      loadGLTFModel(scene, urlDogGLB, {
+      loadGLTFModel(scene, urlBearGLBF, {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
