@@ -47,7 +47,8 @@ const Work = () => (
       <UnorderedList ml={4} my={4}>
         <ListItem>
           <strong>Outdated Design:</strong> The website's design was visually
-          unappealing and outdated, failing to reflect Anantara's brand image.
+          unappealing and outdated, failing to reflect Anantara&apos;s brand
+          image.
         </ListItem>
 
         <ListItem>
@@ -73,11 +74,11 @@ const Work = () => (
       </Heading>
       <P>
         The redesigned website unveiled a sleek and modern design that mirrored
-        Anantara's luxury brand identity. Intuitive navigation guided users
+        Anantara&apos;s luxury brand identity. Intuitive navigation guided users
         through the booking process with ease, while personalized
         recommendations and filters tailored the experience to individual
         preferences. Clear and consistent messaging ensured users were informed
-        at every step, fostering trust and confidence in Anantara's brand.
+        at every step, fostering trust and confidence in Anantara&apos;s brand.
       </P>
       <Heading as="h4" fontSize={16} my={6}>
         <Center>My role</Center>
@@ -110,9 +111,10 @@ const Work = () => (
       <br />
       <P>
         The foundation of the redesign process lay in understanding the needs,
-        pain points, and expectations of Anantara's target audience. Through a
-        comprehensive user research approach, we delved into the perspectives
-        and experiences of potential and existing Anantara customers.
+        pain points, and expectations of Anantara&apos;s target audience.
+        Through a comprehensive user research approach, we delved into the
+        perspectives and experiences of potential and existing Anantara
+        customers.
       </P>
       <P>
         In-depth user interviews were conducted to gather qualitative data
@@ -135,10 +137,10 @@ const Work = () => (
         In addition to understanding our target audience, we also conducted a
         thorough competitive analysis to evaluate existing solutions and
         industry best practices. We analyzed the booking engine websites of
-        Anantara's competitors, identifying their strengths, weaknesses, and
-        areas for improvement. This benchmarking exercise helped us position our
-        redesign within the competitive landscape and identify opportunities for
-        differentiation.
+        Anantara&apos;s competitors, identifying their strengths, weaknesses,
+        and areas for improvement. This benchmarking exercise helped us position
+        our redesign within the competitive landscape and identify opportunities
+        for differentiation.
       </P>
       <P>
         Moreover, we analyzed website analytics to understand user behavior and
@@ -161,9 +163,9 @@ const Work = () => (
       <P>
         By combining the insights from user interviews, surveys, competitive
         analysis, and website analytics, we were able to synthesize a
-        comprehensive understanding of Anantara's target audience. We identified
-        key user personas, representing different types of users and their
-        unique needs and motivations. These personas served as guiding
+        comprehensive understanding of Anantara&apos;s target audience. We
+        identified key user personas, representing different types of users and
+        their unique needs and motivations. These personas served as guiding
         principles throughout the design process, ensuring that every decision
         was driven by a deep understanding of the users we were designing for.
       </P>
@@ -188,8 +190,8 @@ const Work = () => (
         Additionally, we recognized users' desire for visually appealing
         content, particularly large images and galleries. This preference
         prompted us to incorporate high-quality imagery throughout the website,
-        showcasing Anantara's luxurious accommodations and enticing users to
-        explore further.
+        showcasing Anantara&apos;s luxurious accommodations and enticing users
+        to explore further.
       </P>
       <P>
         Furthermore, we observed a common pattern of users moving back and forth
@@ -222,21 +224,22 @@ const Work = () => (
         search, secure payment options, and clear booking confirmation, were
         given high priority. These features directly addressed user pain points
         and enhanced their overall experience, fostering a positive perception
-        of Anantara's brand.
+        of Anantara&apos;s brand.
       </P>
 
       <P>
-        Additionally, features that aligned with Anantara's business goals, such
-        as personalized recommendations and upselling opportunities, were also
-        prioritized. These features not only enhanced user engagement but also
-        contributed to the company's revenue growth, striking a balance between
-        user satisfaction and business objectives.
+        Additionally, features that aligned with Anantara&apos;s business goals,
+        such as personalized recommendations and upselling opportunities, were
+        also prioritized. These features not only enhanced user engagement but
+        also contributed to the company's revenue growth, striking a balance
+        between user satisfaction and business objectives.
       </P>
 
       <P>
         By carefully balancing user needs and business goals, we ensured that
         the redesigned website would deliver a delightful user experience and
-        contribute to Anantara's continued success in the hospitality industry.
+        contribute to Anantara&apos;s continued success in the hospitality
+        industry.
       </P>
 
       <Heading as="h5" fontSize={16} my={6}>
@@ -262,9 +265,9 @@ const Work = () => (
       </P>
       <br />
       <P>
-        Guided by Anantara's brand identity, we established a consistent visual
-        style, incorporating high-quality imagery, clear typography, and a
-        cohesive color palette. User-friendly interfaces were designed to be
+        Guided by Anantara&apos;s brand identity, we established a consistent
+        visual style, incorporating high-quality imagery, clear typography, and
+        a cohesive color palette. User-friendly interfaces were designed to be
         intuitive and easy to navigate, ensuring that users could effortlessly
         find the information they sought. Accessibility was prioritized to make
         the website inclusive for all users.
@@ -277,35 +280,35 @@ const Work = () => (
       </Heading>
 
       <P>
-        The redesign of Anantara's booking engine was a transformative journey
-        that allowed us to delve into the intricacies of user behavior and
-        elevate the online booking experience for Anantara's discerning
+        The redesign of Anantara&apos;s booking engine was a transformative
+        journey that allowed us to delve into the intricacies of user behavior
+        and elevate the online booking experience for Anantara&apos;s discerning
         clientele. Throughout the process, we embraced a user-centered approach,
         prioritizing user needs and preferences at every stage of design.
       </P>
       <P>
         The comprehensive user research phase proved to be the cornerstone of
         our design decisions. By immersing ourselves in the perspectives and
-        expectations of Anantara's target audience, we gained invaluable
+        expectations of Anantara&apos;s target audience, we gained invaluable
         insights into their booking habits, pain points, and aspirations. This
         deep understanding of user behavior served as a guiding compass,
         ensuring that the redesigned website catered to the diverse needs of
-        Anantara's global clientele.
+        Anantara&apos;s global clientele.
       </P>
       <P>
         The collaborative nature of the project fostered a synergy between
         designers, developers, and project managers, enabling us to tackle
         complex challenges and refine the design iteratively. This collaborative
         spirit was paramount in ensuring that the final product seamlessly
-        integrated with Anantara's existing systems, aligned with business
+        integrated with Anantara&apos;s existing systems, aligned with business
         goals, and met the highest standards of accessibility.
       </P>
       <P>
-        The redesign of Anantara's booking engine stands as a testament to the
-        power of user-centered design and the transformative impact of
+        The redesign of Anantara&apos;s booking engine stands as a testament to
+        the power of user-centered design and the transformative impact of
         empathy-driven innovation. By prioritizing user needs and preferences,
         we created an intuitive, engaging, and visually appealing booking
-        experience that elevates Anantara's online presence, reinforces its
+        experience that elevates Anantara&apos;s online presence, reinforces its
         reputation as a leader in luxury hospitality, and sets a new benchmark
         for seamless digital booking experiences.
       </P>
@@ -317,14 +320,14 @@ const Work = () => (
         forward in the company's digital journey. It now offers a seamless,
         user-friendly, and visually captivating experience that caters to the
         needs of discerning travelers, fostering brand loyalty, driving business
-        growth, and solidifying Anantara's position as a pioneer in luxury
+        growth, and solidifying Anantara&apos;s position as a pioneer in luxury
         hospitality.
       </P>
       <P>
         We are confident that the redesigned booking engine will contribute to
-        Anantara's continued success in the hospitality industry, setting a new
-        standard for luxury online booking experiences, and further enhancing
-        the brand's reputation for providing exceptional service and
+        Anantara&apos;s continued success in the hospitality industry, setting a
+        new standard for luxury online booking experiences, and further
+        enhancing the brand's reputation for providing exceptional service and
         unforgettable travel experiences.
       </P>
     </Container>
