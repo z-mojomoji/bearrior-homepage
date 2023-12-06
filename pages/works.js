@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import { WorkGridItem, GridItem } from '../components/grid-item'
 
 import thumbMockUp1 from '../public/images/works/mockup1.jpg'
 import thumbMockUp2 from '../public/images/works/mockup2.jpg'
@@ -34,54 +34,47 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         {/* End One Work section */}
-        <Section>
+        <Section delay={0.1}>
           <WorkGridItem id="mock1" title="Mock 2" thumbnail={thumbMockUp2}>
             Description 2
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        <Section delay={0.2}>
           <WorkGridItem id="mock1" title="Mock 3" thumbnail={thumbMockUp3}>
             Description 3
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="mock1" thumbnail={thumbMockUp4} title="Mock 4">
-            Description 4
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
       {/* New Section */}
-      <Section delay={0.2}>
+      <Section delay={0.3}>
         <Divider my={6} />
         <Heading as="h3" fontSize={18} mb={4}>
           Codes
         </Heading>
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          {/* Start One Work section */}
-          <Section>
-            <WorkGridItem id="mock1" title="Mock 1" thumbnail={thumbMockUp1}>
-              Description 1
-            </WorkGridItem>
-          </Section>
-          {/* End One Work section */}
-          <Section>
-            <WorkGridItem id="mock1" title="Mock 2" thumbnail={thumbMockUp2}>
-              Description 2
-            </WorkGridItem>
-          </Section>
-
-          <Section delay={0.1}>
-            <WorkGridItem id="mock1" title="Mock 3" thumbnail={thumbMockUp3}>
-              Description 3
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.1}>
-            <WorkGridItem id="mock1" thumbnail={thumbMockUp4} title="Mock 4">
-              Description 4
-            </WorkGridItem>
-          </Section>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="/code-work/abctech/index.html"
+            title="ABC Tech Web Landing"
+            thumbnail={thumbMockUp4}
+          >
+            Web Landing for all devices
+          </GridItem>
+          <GridItem
+            href="/code-work/compucorp/index.html"
+            title="ComuCorp Web Landing"
+            thumbnail={thumbMockUp4}
+          >
+            Web Landing for Desktop/Mobile
+          </GridItem>
+          <GridItem
+            href="/code-work/lefery/index.html"
+            title="Lefery Advertising"
+            thumbnail={thumbMockUp4}
+          >
+            Web Landing for Desktop/Mobile
+          </GridItem>
         </SimpleGrid>
       </Section>
     </Container>
