@@ -1,8 +1,6 @@
 import {
   Container,
   Badge,
-  Link,
-  List,
   ListItem,
   SimpleGrid,
   UnorderedList,
@@ -187,7 +185,7 @@ const Work = () => (
         and confirm their selections.
       </P>
       <P>
-        Additionally, we recognized users' desire for visually appealing
+        Additionally, we recognized users&apos; desire for visually appealing
         content, particularly large images and galleries. This preference
         prompted us to incorporate high-quality imagery throughout the website,
         showcasing Anantara&apos;s luxurious accommodations and enticing users
