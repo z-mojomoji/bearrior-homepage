@@ -46,9 +46,9 @@ const Work = () => (
       </Heading>
       <UnorderedList ml={4} my={4}>
         <ListItem>
-          <strong>Outdated Design:</strong> The website's design was visually
-          unappealing and outdated, failing to reflect Anantara&apos;s brand
-          image.
+          <strong>Outdated Design:</strong> The website&apos;s design was
+          visually unappealing and outdated, failing to reflect Anantara&apos;s
+          brand image.
         </ListItem>
 
         <ListItem>
@@ -64,9 +64,9 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          <strong>Inconsistent Messaging:</strong> The website's messaging was
-          inconsistent and unclear, leading to confusion and uncertainty among
-          users.
+          <strong>Inconsistent Messaging:</strong> The website&apos;s messaging
+          was inconsistent and unclear, leading to confusion and uncertainty
+          among users.
         </ListItem>
       </UnorderedList>
       <Heading as="h4" fontSize={16} my={6}>
@@ -231,8 +231,8 @@ const Work = () => (
         Additionally, features that aligned with Anantara&apos;s business goals,
         such as personalized recommendations and upselling opportunities, were
         also prioritized. These features not only enhanced user engagement but
-        also contributed to the company's revenue growth, striking a balance
-        between user satisfaction and business objectives.
+        also contributed to the company&apos;s revenue growth, striking a
+        balance between user satisfaction and business objectives.
       </P>
 
       <P>
@@ -250,7 +250,7 @@ const Work = () => (
       </P>
       <br />
       <P>
-        To visualize the website's layout and functionality, we created
+        To visualize the website&apos;s layout and functionality, we created
         low-fidelity wireframes, using simple shapes to represent elements.
         Then, we developed interactive prototypes to simulate the user
         experience and gather feedback from real users. Through iterative
@@ -317,7 +317,7 @@ const Work = () => (
       </Heading>
       <P>
         The redesigned Anantara booking engine represents a significant step
-        forward in the company's digital journey. It now offers a seamless,
+        forward in the company&apos;s digital journey. It now offers a seamless,
         user-friendly, and visually captivating experience that caters to the
         needs of discerning travelers, fostering brand loyalty, driving business
         growth, and solidifying Anantara&apos;s position as a pioneer in luxury
@@ -327,8 +327,8 @@ const Work = () => (
         We are confident that the redesigned booking engine will contribute to
         Anantara&apos;s continued success in the hospitality industry, setting a
         new standard for luxury online booking experiences, and further
-        enhancing the brand's reputation for providing exceptional service and
-        unforgettable travel experiences.
+        enhancing the brand&apos;s reputation for providing exceptional service
+        and unforgettable travel experiences.
       </P>
     </Container>
   </Layout>
