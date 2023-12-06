@@ -1,7 +1,7 @@
 # Moji's Homepage
 
 [https://www.bearrior.com/](https://www.bearrior.com/)
-Using Node Version 16.13.2
+Using Node Version 18.17.0
 
 ## Stack
 
