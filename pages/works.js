@@ -7,6 +7,9 @@ import thumbMockUp1 from '../public/images/works/mockup1.jpg'
 import thumbMockUp2 from '../public/images/works/mockup2.jpg'
 import thumbMockUp3 from '../public/images/works/mockup3.jpg'
 import thumbMockUp4 from '../public/images/works/mockup4.jpg'
+import thumbAbcTech from '../public/images/works/abc-tech.png'
+import thumbOpenCharity from '../public/images/works/open-charity.png'
+import thumbLeafrey from '../public/images/works/leafrey.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -57,21 +60,21 @@ const Works = () => (
           <GridItem
             href="/code-work/abctech/index.html"
             title="ABC Tech Web Landing"
-            thumbnail={thumbMockUp4}
+            thumbnail={thumbAbcTech}
           >
             Web Landing for all devices
           </GridItem>
           <GridItem
             href="/code-work/compucorp/index.html"
             title="ComuCorp Web Landing"
-            thumbnail={thumbMockUp4}
+            thumbnail={thumbOpenCharity}
           >
             Web Landing for Desktop/Mobile
           </GridItem>
           <GridItem
             href="/code-work/lefery/index.html"
             title="Lefery Advertising"
-            thumbnail={thumbMockUp4}
+            thumbnail={thumbLeafrey}
           >
             Web Landing for Desktop/Mobile
           </GridItem>
