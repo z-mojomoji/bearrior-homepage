@@ -9,6 +9,7 @@ import thumbAnantaraIBE from '../public/images/works/anantara-ibe.png'
 import thumbAbcTech from '../public/images/works/abc-tech.png'
 import thumbOpenCharity from '../public/images/works/open-charity.png'
 import thumbLeafrey from '../public/images/works/leafrey.png'
+import thumbGithub from '../public/images/works/github-placeholder.png'
 // import thumbMockUp1 from '../public/images/works/mockup1.jpg'
 // import thumbMockUp4 from '../public/images/works/mockup4.jpg'
 
@@ -78,6 +79,13 @@ const Works = () => (
             thumbnail={thumbLeafrey}
           >
             Web Landing for Desktop/Mobile
+          </GridItem>
+          <GridItem
+            href="https://github.com/z-mojomoji/"
+            title="Github for more codes!"
+            thumbnail={thumbGithub}
+          >
+            Want to see more code works? Check out my Github!
           </GridItem>
         </SimpleGrid>
       </Section>
