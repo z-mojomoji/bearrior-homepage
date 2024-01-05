@@ -3,13 +3,14 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem, GridItem } from '../components/grid-item'
 
-import thumbMockUp1 from '../public/images/works/mockup1.jpg'
 import thumbMockUp2 from '../public/images/works/mockup2.jpg'
 import thumbMockUp3 from '../public/images/works/mockup3.jpg'
-// import thumbMockUp4 from '../public/images/works/mockup4.jpg'
+import thumbAnantaraIBE from '../public/images/works/anantara-ibe.png'
 import thumbAbcTech from '../public/images/works/abc-tech.png'
 import thumbOpenCharity from '../public/images/works/open-charity.png'
 import thumbLeafrey from '../public/images/works/leafrey.png'
+// import thumbMockUp1 from '../public/images/works/mockup1.jpg'
+// import thumbMockUp4 from '../public/images/works/mockup4.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -27,7 +28,7 @@ const Works = () => (
             id="anantara-elevating-user-experience"
             title="Elevating User Experience: Redesigning the Anantara Booking Engine
         Website"
-            thumbnail={thumbMockUp1}
+            thumbnail={thumbAnantaraIBE}
           >
             Anantara, a luxury hotel chain, sought to elevate its online booking
             experience to match its exceptional hospitality. Faced with an
