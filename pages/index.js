@@ -112,7 +112,7 @@ const Home = () => (
           Worked as a <em>UI Developer / ITIC Software Engineer</em> for Agoda
         </BioSection>
         <BioSection>
-          <BioYear>2021 to present</BioYear>
+          <BioYear>2021 to 2024</BioYear>
           Working as an <em>UX Developer</em> at Minor Hotels
         </BioSection>
       </Section>

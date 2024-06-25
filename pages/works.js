@@ -1,16 +1,18 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { Container, Heading, SimpleGrid, Divider, Box, Button } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem, GridItem } from '../components/grid-item'
 
-import thumbMockUp2 from '../public/images/works/mockup2.jpg'
-import thumbMockUp3 from '../public/images/works/mockup3.jpg'
 import thumbAnantaraIBE from '../public/images/works/anantara-ibe.png'
 import thumbAbcTech from '../public/images/works/abc-tech.png'
 import thumbOpenCharity from '../public/images/works/open-charity.png'
 import thumbLeafrey from '../public/images/works/leafrey.png'
 import thumbGithub from '../public/images/works/github-placeholder.png'
+import { IoLogoFlickr } from 'react-icons/io5'
 // import thumbMockUp1 from '../public/images/works/mockup1.jpg'
+// import thumbMockUp2 from '../public/images/works/mockup2.jpg'
+// import thumbMockUp3 from '../public/images/works/mockup3.jpg'
 // import thumbMockUp4 from '../public/images/works/mockup4.jpg'
 
 const Works = () => (
@@ -39,7 +41,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         {/* End One Work section */}
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem id="mock1" title="Mock 2" thumbnail={thumbMockUp2}>
             Description 2
           </WorkGridItem>
@@ -49,7 +51,18 @@ const Works = () => (
           <WorkGridItem id="mock1" title="Mock 3" thumbnail={thumbMockUp3}>
             Description 3
           </WorkGridItem>
-        </Section>
+        </Section> */}
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="https://www.flickr.com/photos/69566893@N02/"
+            scroll={false}
+            leftIcon={<IoLogoFlickr />}
+            colorScheme="teal"
+          >
+            More Design Works
+          </Button>
+        </Box>
       </SimpleGrid>
 
       {/* New Section */}
